@@ -24,7 +24,7 @@ def Gradient(X, Y):
         db = dz
         dw = dz * x
         w = w - eta * dw
-        b = b = eta * db
+        b = b - eta * db
 
     print(w, b)
     return w, b
